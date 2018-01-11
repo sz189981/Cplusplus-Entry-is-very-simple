@@ -25,10 +25,6 @@ void main(void)
 	cout << "d设置输出精度为5：" << setprecision(5) << d << endl;	//输出精度控制
 	cout << setprecision(6);										//恢复默认精度
 	cout << "科学计数输出 d:" << setiosflags(ios::scientific) << d << endl;	//科学计数法输出
-
-
-
-
 	while(1);
 }
 
